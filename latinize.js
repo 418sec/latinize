@@ -17,7 +17,7 @@
         return latinize.characters[x] || x;
       });
     } else {
-      if (str == constructor.prototype)
+      if (str === constructor.prototype)
         str = {}
       return str;
     }
